@@ -1,0 +1,149 @@
+#header {
+    color: #FFF;
+    text-align: center;
+    background-color: black;
+    padding: 5px;
+}
+
+#nav {
+    line-height: 30px;
+    background-color: #EEE;
+    height: 78%;
+    width: 11%;
+    float: left;
+    padding: 10px;
+}
+
+#nav a {
+    text-decoration: none;
+    color: black;
+}
+
+#section {
+    width: 85%;
+    float: left;
+    padding: 10px;
+}
+
+#footer {
+    background-color: #000;
+    color: #FFF;
+    clear: both;
+    text-align: center;
+    padding: 7px;
+    height: 32px;
+}
+
+#myIframe {
+    width: 102%;
+    height: 77%;
+}
+
+/* Personal Details */
+
+.Data-Content {
+    width: 100%; /* 表單寬度 */
+    line-height: 40px;
+}
+
+.Data-Title {
+    float: left;
+    width: 10%;
+    margin-right: 0px;
+}
+
+.Data-Items {
+    float: left;
+    width: 25%;
+}
+
+.AlignRight {
+    text-align: right;
+}
+
+.Data-Items input {
+    margin: 3%;
+}
+
+/* Order Manage */
+
+
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-color: #ccc;
+    margin: 0px auto;
+}
+
+.tg td {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: #ccc;
+    color: #333;
+    background-color: #fff;
+}
+
+.tg th {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: #ccc;
+    color: #333;
+    background-color: #f0f0f0;
+}
+
+.tg .tg-wjqe {
+    font-weight: bold;
+    font-size: 16px;
+    font-family: "Comic Sans MS", cursive, sans-serif !important;;
+    text-align: center;
+    vertical-align: top
+}
+
+.tg .tg-h1ln {
+    background-color: #f9f9f9;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: "Comic Sans MS", cursive, sans-serif !important;;
+    text-align: center;
+    vertical-align: top
+}
+
+.tg .tg-jsj9 {
+    font-size: 16px;
+    font-family: "Comic Sans MS", cursive, sans-serif !important;;
+    text-align: center;
+    vertical-align: top
+
+
+}
+
+.tg .tg-jsj9 a{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+    .tg {
+        width: auto !important;
+    }
+
+    .tg col {
+        width: auto !important;
+    }
+
+    .tg-wrap {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        margin: auto 0px;
+    }
+}

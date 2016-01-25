@@ -1,0 +1,57 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2015年10月23日, 上午12:43:21
+    Author     : M5F
+*/
+#layWrap{
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #B3E5FC;
+    background-color: #E0E0E0;
+    padding:0;
+    margin-top: 0;
+}
+
+#banner{
+    height: 40px;
+    background-color: #E0E0E0;
+    margin-top: 60px;
+    z-index: -1;
+}
+
+#container{
+    height:1024px;
+    background-color: #FAFAFA;  
+
+}
+
+#top{
+    height:100px;
+    background-color: #FAFAFA;
+
+}
+
+
+
+body{
+    background:linear-gradient(top,#FAFAFA,#F5F5F5);
+    background:-moz-linear-gradient(top,#FAFAFA,#F5F5F5);
+    background:-webkit-linear-gradient(top,#FAFAFA,#F5F5F5);
+    margin: 0;
+    padding:0;
+}
+
+ul#listViewBanner li{
+    display: inline;
+    font-size: 30px;
+    color: #FAFAFA;
+    boarder-style:solid;
+    border-width: 10px;
+    border-color: #E0E0E0;
+    margin-left: 50px;
+}
